@@ -4,12 +4,20 @@ This repo includes all the files used to create a joystick for KelRot 5655's 2. 
 ![Assembled Joystick](/joystick.jpeg)
 
 ## Buttons
-*1. 3 way switch in the top left corner
-    -At the start of a match co-pilot uses this switch to take out the intake mechanism.
-*2. 2 buttons under the switch
-    -These buttons provide manual operation of the lift system.
-*3. 6 buttons in the middle
-    -Each button sets the lift height to the according level for the hatch or cargo level. (e.g. orange at the top sets the height to top bay of the rocket)
+1.  3 way switch in the top left corner
+    -   At the start of a match, the co-pilot uses this switch to take out the intake mechanism.
+
+2.  2 buttons under the switch
+    -   These buttons provide manual operation of the lift system.
+
+3.  6 buttons in the middle
+    -   Each button sets the lift's height to the desired level of rocket. (e.g. orange buttton at the top sets the lift's height to the highest carho level of the rocket meanwhile red at the bottom sets it to the lowest hatch level of the rocket)
+    
+4.  2 lit up buttons in the right
+    -   When pressed, upper one pushes the pnuematic tube forward in order to push the hatch out of the intake and the lower one pulls the tube back
+    
+5.  2 black buttons side by side
+    -   These buttons are used for the cargo intake. When left one is pressed, intake mechanism takes the cargo in, when the right one is pressed the robot throws it.
 
 ## Arduino
 An Arduino Uno is chosen as it has enough pins for the buttons on the joystick and can be found laying around in KelRot's workplace. With UnoJoy library's special firmware, Arduino Uno shows up as a joystick on most of the operation systems (Windows, Linux, MacOS). Information on UnoJoy library can be found here: https://code.google.com/archive/p/unojoy/.
