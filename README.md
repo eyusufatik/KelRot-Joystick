@@ -13,7 +13,7 @@ This repo includes all the files used to create a joystick for KelRot 5655's 2. 
 3.  6 buttons in the middle
     -   Each button sets the lift's height to the desired level of rocket. (e.g. orange buttton at the top sets the lift's height to the highest carho level of the rocket meanwhile red at the bottom sets it to the lowest hatch level of the rocket)
     
-4.  2 lit up buttons in the right
+4.  2 lit up buttons on the right
     -   When pressed, upper one pushes the pnuematic tube forward in order to push the hatch out of the intake and the lower one pulls the tube back
     
 5.  2 black buttons side by side
